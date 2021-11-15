@@ -20,8 +20,8 @@ const closeX = document.querySelector('.close');
 closeX.addEventListener ('click',
 function () {
 
-    let closeMenu = document.querySelector('.hamburger-menu-active');
-    closeMenu.classList.remove('active');
-    console.log(closeMenu);
+    let closeMenu = document.querySelector('.hamburger-menu.active');
+        closeMenu.classList.remove('active');
+        console.log(closeMenu);
 });
 
